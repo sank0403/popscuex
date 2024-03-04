@@ -1,0 +1,16 @@
+{
+  "short_name": "Pops Cue Ext:",
+  "name": "Pops Cue Ext:",
+  "icons": [
+    {
+      "src": "https://sank0403.github.io/popscuex/images/smlogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://sank0403.github.io/popscuex/",
+  "background_color": "#000000",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "description": "Pops Custom Cue Extensions"
+}
