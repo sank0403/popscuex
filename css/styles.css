@@ -93,6 +93,10 @@ p{
 	padding-bottom: 1.5rem;
 }
 
+.nonbold{
+	font-weight: normal;
+	--font-size: 0.75rem;
+}
 .nav-item{
 	padding: 0 18px;
 }
