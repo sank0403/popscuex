@@ -121,7 +121,7 @@ p{
 
 .testimonial-image{
 	--border-radius: 100%;
-	width: 35%;
+	width: 20%;
 	margin: 20px;
 }
 
@@ -167,6 +167,12 @@ p{
 	}
 	.navbar-brand{
 		font-size: 1rem;
+	}
+
+	.testimonial-image{
+		--border-radius: 100%;
+		width: 50%;
+		margin: 20px;
 	}
 }
 
