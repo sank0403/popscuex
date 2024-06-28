@@ -216,18 +216,21 @@ div.desc {
   width: 12.499999%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .responsive {
-    width: 75%;
-    margin: 6px 0;
+    width: 50%;
+    margin: 3px 0;
+	float: center;
   }
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .responsive {
     width: 50%;
+	margin: 3px 0;
+	float: center;
   }
-}
+} */
 
 .clearfix:after {
   content: "";
