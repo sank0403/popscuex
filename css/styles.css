@@ -216,13 +216,8 @@ div.desc {
   width: 12.499999%;
 }
 
-@media only screen and (max-width: 800px) {
-  .responsive {
-    width: 50%;
-    margin: 3px 0;
-	float: center;
-  }
-}
+
+
 
 /* @media only screen and (max-width: 500px) {
   .responsive {
@@ -262,4 +257,24 @@ div.desc {
   color: black;
   font-size: 35px;
   cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 50%;
+    margin: 3px 0;
+	float: center;
+  }
+
+    
+  #imgtext {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  color: white;
+  font-size: 12px;
+}
+  
 }
