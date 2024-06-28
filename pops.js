@@ -1,3 +1,6 @@
+document.getElementById("expandedImg").src = 'images/a.jpg'
+document.getElementById("imgtext").innerHTML = "4&quot; + 8&quot; stackable for a Lucasi"
+
 function myFunction(imgs) {
   // Get the expanded image
   var expandImg = document.getElementById("expandedImg");
