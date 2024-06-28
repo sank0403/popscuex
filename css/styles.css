@@ -86,6 +86,7 @@ p{
 
 .carousel-item{
 	padding: 3% 7%;
+	height: 300px;
 }
 
 
@@ -190,11 +191,15 @@ p{
 
 div.galleryitem {
   border: 1px solid #ccc;
+  opacity: 1;
 }
 
 div.galleryitem:hover {
   border: 1px solid #777;
+  opacity: 0.8;
 }
+
+
 
 div.galleryitem img {
   width: 100%;
@@ -237,7 +242,7 @@ div.desc, div.descleft {
 /* The expanding image container (positioning is needed to position the close button and the text) */
 .container {
   position: relative;
-  display: none;
+  /* display: none; */
 }
 
 /* Expanding image text */
@@ -288,5 +293,8 @@ div.desc, div.descleft {
   text-align: center;
    font-size: 10px;
 }
-
+.carousel-item{
+	padding: 3% 7%;
+	height: 800px;
+}
 }
