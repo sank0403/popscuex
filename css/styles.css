@@ -54,6 +54,25 @@ p{
 		color: #fff;
 	}
 	
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
 
 
 #press{
@@ -76,7 +95,7 @@ p{
 }
 
 #footer{
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 	font-size: 0.75rem;
 }
